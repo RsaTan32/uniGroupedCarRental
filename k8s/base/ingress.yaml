@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: api.pistidevops.dev
+    - host: grouped.pistidevops.dev
       http:
         paths:
           - path: /

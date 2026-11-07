@@ -20,5 +20,6 @@ public interface CarRentalClient {
 
     @GET
     @Path("/locations/{locationId}")
-    RentalLocation getLocation(@PathParam("locationId") Long locationId, @HeaderParam("Authorization") String authorization);
+    RentalLocation getLocation(@PathParam("locationId") Long locationId,
+            @HeaderParam("Authorization") String authorization);
 }
