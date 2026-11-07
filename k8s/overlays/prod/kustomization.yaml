@@ -6,4 +6,4 @@ resources:
 images:
   - name: grouped-backend
     newName: ghcr.io/rsatan32/unigroupedcarrental
-    newTag: 35e1f88069156c87d9a17b2f0529fd58a9d6c2e4
+    newTag: 52d0714daf21ffba8c270ad2e139168b648f12a0
