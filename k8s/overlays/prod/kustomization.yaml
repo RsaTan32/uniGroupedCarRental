@@ -1,0 +1,9 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: car-rental
+resources:
+  - ../../base
+images:
+  - name: grouped-backend
+    newName: ghcr.io/rsatan32/unigroupedcarrental
+    newTag: main

@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: grouped-backend
+  labels:
+    app.kubernetes.io/name: grouped-backend
+spec:
+  ingressClassName: traefik
+  rules:
+    - host: grouped.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: grouped-backend
+                port:
+                  name: http
