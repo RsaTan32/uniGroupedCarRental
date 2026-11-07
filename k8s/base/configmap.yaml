@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   name: grouped-backend-config
 data:
-  CAR_RENTAL_URL: "https://api.pistidevops.dev/q"
+  CAR_RENTAL_URL: "https://api.pistidevops.dev"
   FUEL_STATIONS_PRIMARY_URL: "http://68.210.202.139:8080"
   FUEL_STATIONS_FALLBACK_URL: "http://130.61.42.205:8080"
